@@ -99,13 +99,13 @@ openssl pkeyutl -decrypt -inkey private.key -in cypher.txt -out decrypted.txt
 
 #### Ответ
 
-1. Публичный и приватный ключ ([public.key] (<https://github.com/ddponomarev/oib9/blob/main/img/public.key>) и [private.key](<https://github.com/ddponomarev/oib9/blob/main/img/private.key>))
-2. Passphrase (строкой)
+1. Публичный и приватный ключ ([public.key](<https://github.com/ddponomarev/oib9/blob/main/img/public.key>) и [private.key](<https://github.com/ddponomarev/oib9/blob/main/img/private.key>))
+2. Passphrase (`1234`)
 3. Зашифрованный файл ([cypher.txt](<https://github.com/ddponomarev/oib9/blob/main/img/cypher.txt>))
 
 ![Рисунок 1.](https://github.com/ddponomarev/oib9/blob/main/img/s1.png)
 
-![Рисунок 2.](https://github.com/ddponomarev/oib9/blob/main/img/s1.png)
+![Рисунок 2.](https://github.com/ddponomarev/oib9/blob/main/img/s2.png)
 ## Задача GnuPG: подпись сообщения
 
 В этом ДЗ мы научимся подписывать и проверять подпись документов с помощью [GnuPG](https://gnupg.org) - популярной реализации [OpenPGP](https://www.ietf.org/rfc/rfc4880.txt). В частности, она используется в большом количестве Open Source проектов для подписи пакетов с ПО.
