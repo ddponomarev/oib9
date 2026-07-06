@@ -157,8 +157,8 @@ gpg --output public.gpg --armor --export coursar@localhost
 1. Публичный ключ ([public.gpg](<https://github.com/ddponomarev/oib9/blob/main/img/public.gpg>))
 2. Файл сообщения и подпись к нему ([файл](<https://github.com/ddponomarev/oib9/blob/main/img/message2.txt>) [подпись](<https://github.com/ddponomarev/oib9/blob/main/img/message.sig>))
 
-![Рисунок 3.](https://github.com/ddponomarev/oib8/blob/main/img/s3.png)
-![Рисунок 4.](https://github.com/ddponomarev/oib8/blob/main/img/s4.png)
+![Рисунок 3.](https://github.com/ddponomarev/oib9/blob/main/img/s3.png)
+![Рисунок 4.](https://github.com/ddponomarev/oib9/blob/main/img/s4.png)
 
 ## Задача GnuPG: decrypt*
 
